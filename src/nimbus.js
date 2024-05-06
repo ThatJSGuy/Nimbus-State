@@ -1,4 +1,3 @@
-// Example of the consolidated Nimbus file
 import { reactive } from "vue";
 
 class Nimbus {
