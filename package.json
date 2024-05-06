@@ -1,0 +1,24 @@
+{
+  "name": "nimbus-state",
+  "version": "1.0.2",
+  "description": "A lightweight state management library for Vue.js",
+  "main": "src/nimbus.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "vue",
+    "state management",
+    "nimbus"
+  ],
+  "author": "Matt Williams <thatjsguy555@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
+}
