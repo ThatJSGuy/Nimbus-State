@@ -1,24 +1,23 @@
 {
   "name": "nimbus-state",
   "version": "1.0.2",
-  "description": "A lightweight state management library for Vue.js",
+  "description": "A lightweight state management library for Vue, now preparing to support SolidJS and React",
   "main": "src/nimbus.js",
-  "scripts": {
-    "build": "babel src -d dist",
-    "prepublish": "npm run build"
+  "bin": {
+    "nimbus": "./cli/nimbus-cli.js"
   },
-  "keywords": [
-    "vue",
-    "state management",
-    "nimbus"
-  ],
-  "author": "Matt Williams <thatjsguy555@gmail.com>",
+  "scripts": {
+    "build": "echo 'Add your build script here'",
+    "start": "node src/nimbus.js"
+  },
+  "author": "Your Name",
   "license": "MIT",
-  "peerDependencies": {
+  "dependencies": {
     "vue": "^3.0.0"
   },
-  "files": [
-    "dist",
-    "src"
-  ]
+  "devDependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^8.0.0",
+    "inquirer": "^8.0.0"
+  }
 }
