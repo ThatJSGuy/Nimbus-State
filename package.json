@@ -1,6 +1,6 @@
 {
   "name": "nimbus-state",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight state management library for Vue, now preparing to support SolidJS and React",
   "main": "src/nimbus.js",
   "bin": {
